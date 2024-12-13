@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'terraform-slave'
+        label 'terraform-slave-aws'
     }
     parameters {
         string (name: 'USERNAME', defaultValue: 'KISHORE', description: 'Please enter your name')
